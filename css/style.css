@@ -24,13 +24,13 @@ header nav{
     align-items: center;
     padding: 1rem;
     background-color: transparent;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.247);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.103);
 }
 
 nav #navbar-brand a{
     text-decoration: none;
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 1rem 0.3rem;
     color: #fff;
     font-weight: 600;
 }
@@ -40,6 +40,7 @@ nav ul{
     justify-content: center;
     align-items: center;
     margin-top: 0.8rem;
+    margin-right: 5rem;
 }
 
 nav ul li{
@@ -51,7 +52,7 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
     padding: 2rem 1rem;
-    font-weight: 700;
+    text-transform: uppercase;
 }
 
 nav ul li a:hover{
