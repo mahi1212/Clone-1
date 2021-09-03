@@ -10,7 +10,7 @@
 
 body{
     background-image: 
-    url('/images/background.jpeg');
+    url('/images/background1.jpeg');
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,16 +50,13 @@ nav ul li a{
     margin: 5px;
     text-decoration: none;
     color: #fff;
-    padding: 0 1rem;
+    padding: 2rem 1rem;
     font-weight: 700;
 }
 
 nav ul li a:hover{
-    margin: 5px;
-    text-decoration: none;
     color: #fff;
-    padding: 0 1.9rem;
-    font-weight: 700;
+    border-bottom: 1px solid #fff;
 }
 
 nav #double-btn{
