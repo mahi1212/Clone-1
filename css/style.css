@@ -48,16 +48,32 @@ nav ul li{
 }
 
 nav ul li a{
-    margin: 5px;
+    margin: 10px;
     text-decoration: none;
     color: #fff;
     padding: 2rem 1rem;
     text-transform: uppercase;
+    position: relative;
 }
 
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    width: 1.5rem;
+    height: 1px;
+    left: 37%;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.562);
+    transition: all 1s;
+}
+
+nav ul li a:hover::after{
+    color: #fff;
+    width: 78%;
+    left: 14%;
+}
 nav ul li a:hover{
     color: #fff;
-    border-bottom: 1px solid #fff;
 }
 
 nav #double-btn{
