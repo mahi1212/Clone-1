@@ -129,5 +129,13 @@ main section #winter{
     margin-bottom: 3rem;
 }
 
+#winter #testimonial .col-md-3:hover .fas{
+    margin-top: -1rem;
+    transition: all 0.45s;
 
+}
+
+#winter #testimonial .fas{
+    color: rgba(0, 0, 255, 0.699);
+}
 /* winter section ends here */
