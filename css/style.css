@@ -17,22 +17,21 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    background-color: transparent;
+    padding: 0.7rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.103);
 }
 
 nav #navbar-brand a{
     text-decoration: none;
     font-size: 1.5rem;
-    padding: 1rem 0.3rem;
+    padding: 0.7rem 0.3rem;
     color: #fff;
     font-weight: 600;
 }
@@ -53,7 +52,7 @@ nav ul li a{
     margin: 10px;
     text-decoration: none;
     color: #fff;
-    padding: 2rem 1rem;
+    padding: 1.8rem 1rem;
     text-transform: uppercase;
     position: relative;
 }
@@ -78,6 +77,9 @@ nav ul li a:hover{
     color: #fff;
 }
 
+.scrolled{
+    background-color: #000;
+}
 nav #double-btn{
     border-left: 1px solid rgba(255, 255, 255, 0.534);
 }
