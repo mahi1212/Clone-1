@@ -186,7 +186,7 @@ main section #digital{
     width: 100%;
 }
 
-.text-div{
+.main-div .text-div{
     display: none;
     position: absolute;
     left: 35%;
@@ -232,7 +232,6 @@ main section #digital{
     top:-1.55rem; 
     left:0px;
     transition: all 0.4s;
-
 }
 
 .small-div:hover .icon-div{
