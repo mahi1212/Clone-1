@@ -209,4 +209,33 @@ main section #digital{
     display: block;
 }
 
+#digital-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem 1rem;
+    justify-content: center;
+    margin: 7rem auto;
+}
+
+#digital-info .icon-div .fas,
+#digital-info .icon-div .far,
+#digital-info .icon-div .fab{
+    color: #565CFD;
+}
+
+.small-div{
+    position: relative;
+}
+
+.icon-div{
+    position:absolute; 
+    top:-1.55rem; 
+    left:0px;
+    transition: all 0.4s;
+
+}
+
+.small-div:hover .icon-div{
+    top: -1.9rem; 
+}
 /* Degital design ends here */
