@@ -79,6 +79,7 @@ nav ul li a:hover{
 
 .scrolled{
     background-color: #000;
+    transition: all 1s;
 }
 nav #double-btn{
     border-left: 1px solid rgba(255, 255, 255, 0.534);
@@ -107,7 +108,8 @@ section #banner #btn-grp{
 
 /* Banner section ends */
 /* winter section starts here */
-main section #winter{
+main section #winter,
+main section #digital{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +120,7 @@ main section #winter{
     text-align: center;
 }
 
-#winter #top-text{
+.top-text{
     text-align: center;
     margin-top: 8rem;
     margin-bottom: 4rem;
@@ -134,10 +136,76 @@ main section #winter{
 #winter #testimonial .col-md-3:hover .fas{
     margin-top: -1rem;
     transition: all 0.45s;
-
 }
 
 #winter #testimonial .fas{
     color: rgba(0, 0, 255, 0.699);
 }
 /* winter section ends here */
+
+/* Degital design starts here */
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link li{
+    list-style: none;
+}
+.link li a{
+    color: #ccc;
+    text-decoration: none;
+    margin: 0.6rem;
+}
+.active-link{
+    color: rgb(144, 143, 143);
+}
+
+.link a:hover{
+    color: rgb(144, 143, 143);
+    transition: all 0.3s ;
+} 
+
+#cards{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.card{
+    overflow: hidden;
+    background-color: #EDEEF0;
+}
+.main-div{
+    overflow: hidden;
+}
+
+.img-div img{
+    width: 100%;
+}
+
+.text-div{
+    display: none;
+    position: absolute;
+    left: 35%;
+}
+
+.info-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.main-div:hover{
+    transition: all 0.4s;
+    margin-top: -7rem;
+}
+.main-div:hover .text-div{
+    display: block;
+    transition: ease-in-out 0.4s;
+}
+
+/* Degital design ends here */
