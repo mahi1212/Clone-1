@@ -167,7 +167,7 @@ main section #digital{
 } 
 
 #cards{
-    margin-top: 2rem;
+    margin: 2rem 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
@@ -179,6 +179,7 @@ main section #digital{
 }
 .main-div{
     overflow: hidden;
+    transition: all 0.37s;
 }
 
 .img-div img{
@@ -200,13 +201,12 @@ main section #digital{
     margin-top: 1.5rem;
 }
 
-.main-div:hover{
-    transition: all 0.4s;
+.card:hover .main-div{
     margin-top: -7rem;
 }
-.main-div:hover .text-div{
+
+.card:hover .text-div{
     display: block;
-    transition: ease-in-out 0.4s;
 }
 
 /* Degital design ends here */
