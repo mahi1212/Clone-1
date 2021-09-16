@@ -189,6 +189,7 @@ main section #digital{
     display: none;
     position: absolute;
     left: 35%;
+    margin-top: 1rem;
 }
 
 .info-div{
