@@ -252,3 +252,40 @@ main section #digital{
     color: blue;
 }
 /* Degital design ends here */
+/* Creative Prople starts here */
+#creative-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem 1rem;
+    margin: 5rem 0;
+}
+.card-creative{
+    position: relative;
+}
+#creative-info{
+    position: absolute;
+    display: none;
+}
+#link{
+    float: left;
+    position: absolute;
+    display: none;
+}
+
+.card-creative:hover img{
+    /* filter: grayscale(1); */
+    filter: grayscale(1);
+}
+.card-creative:hover #creative-info{
+    display: block;
+    margin-top: -5rem;
+    margin-left: 2rem;
+}
+.card-creative:hover #link{
+    display: block;
+    margin-top: -22rem;
+    margin-left: 20rem;
+}
+
+
+/* Creative Prople ends here */
