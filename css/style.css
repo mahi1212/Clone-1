@@ -237,4 +237,18 @@ main section #digital{
 .small-div:hover .icon-div{
     top: -1.9rem; 
 }
+
+.ipad-article{
+    margin: 10rem 0;
+    padding: 10rem 0;
+    background-color: #e9e8e8e7;
+}
+.ipad-article #heading{
+    max-width: 30rem;
+    margin-top: -5rem;
+}
+
+.ipad-article .fas{
+    color: blue;
+}
 /* Degital design ends here */
