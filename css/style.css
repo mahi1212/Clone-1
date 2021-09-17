@@ -271,10 +271,18 @@ main section #digital{
     position: absolute;
     display: none;
 }
+#link i{
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 3px;
+}
 
 .card-creative:hover img{
     /* filter: grayscale(1); */
     filter: grayscale(1);
+    margin-top: -10px;
+    transition: all 0.5s;
 }
 .card-creative:hover #creative-info{
     display: block;
